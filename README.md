@@ -14,3 +14,9 @@
 
 ```bash
 curl -sL https://raw.githubusercontent.com/DevXcodeCpp/OrangePI-Temperature/main/cpu-temp.sh -o cpu-temp.sh && chmod +x cpu-temp.sh && sudo mv cpu-temp.sh /usr/local/bin/cpu-temp
+
+## Удаление
+
+Просто скопируйте и вставьте эту команду в терминал вашего Orange Pi:
+```bash
+sudo rm /usr/local/bin/cpu-temp
