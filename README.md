@@ -16,7 +16,7 @@
 curl -sL https://raw.githubusercontent.com/DevXcodeCpp/OrangePI-Temperature/main/cpu-temp.sh -o cpu-temp.sh && chmod +x cpu-temp.sh && sudo mv cpu-temp.sh /usr/local/bin/cpu-temp
 ```
 ## Запуск
-Просто введите команду cpu-temp 
+Введите команду cpu-temp и вы увидете вывод температуры с указанием времени в консоли
 ```bash
 cpu-temp
 ```
